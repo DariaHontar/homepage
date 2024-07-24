@@ -101,6 +101,7 @@
   text-decoration: none;
   display: flex;
   justify-content: start;
+  
 }
 
 .contact-info__item:not(:last-child) {
@@ -108,7 +109,7 @@
 }
 
 .contact-info__item-icon-wrapper {
-  margin-right: 10px;
+  margin-right: 5px;
   width: 20px;
   display: flex;
   justify-content: center;
@@ -121,6 +122,7 @@
 .contact-info__item-icon {
   height: 1.1428rem;
   vertical-align: text-bottom;
+  width: 30px;
 }
 
 .contact-info__avatar {
