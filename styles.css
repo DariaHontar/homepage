@@ -164,35 +164,53 @@
     color: var(--secondary-text-color);
     text-align: justify;
   }
+
+  .skills{
+    border-left: 3px solid var(--border-color);
+    flex: 1 1 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
   
   .skills__header {
     color: var(--secondary-text-color);
-    text-align: center;
+    text-align: left;
     margin-bottom: 15px;
+    margin-left: 15px;
   }
   
   .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    margin-left: 15px;
   }
 
   /*Experience and additional info styles*/
 
   .experiences {
     flex: 1 1 60%;
-    margin-right: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-left: 3px solid var(--border-color);
   }
   
   .experiences__header {
     color: var(--secondary-text-color);
     text-align: left;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+
+  .experiences__company-header{
+    margin-left: 15px;
+    margin-bottom: 10px;
   }
   
   .experiences__company-header-durability {
     color: var(--durability-text-color);
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 15px;
   }
   
@@ -201,12 +219,12 @@
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .experiences__company-project {
     margin-left: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
   
   .experiences__company-project-role {
@@ -225,10 +243,12 @@
   .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+    margin-bottom: 20px;
   }
   
   .additional-info {
     flex: 1 1 40%;
+    margin-right: 10px;
   }
   
   .additional-info__education {
